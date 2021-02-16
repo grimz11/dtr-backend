@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "records",
+  "info": {
+    "name": "Records",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "timeOut": {
+      "type": "datetime"
+    },
+    "hoursRendered": {
+      "type": "string"
+    },
+    "currentlyWorking": {
+      "type": "boolean"
+    },
+    "userId": {
+      "via": "recordData",
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}
