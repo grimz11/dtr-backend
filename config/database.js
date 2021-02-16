@@ -14,13 +14,13 @@ module.exports = ({ env }) => {
             host: config.host,
             port: config.port,
             database: config.database,
-            username: config.username,
+            username: config.user,
             password: config.password,
-            ssl: true
+            // ssl: true
           },
-          // options: {
-          //   ssl: false
-          // },
+          options: {
+            ssl: false
+          },
         },
       },
     }
