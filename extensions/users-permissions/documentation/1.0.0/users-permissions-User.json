@@ -1399,6 +1399,10 @@
           },
           "quotes": {
             "type": "string"
+          },
+          "birthday": {
+            "type": "string",
+            "format": "date"
           }
         }
       },
@@ -1461,6 +1465,10 @@
           },
           "quotes": {
             "type": "string"
+          },
+          "birthday": {
+            "type": "string",
+            "format": "date"
           },
           "created_by": {
             "type": "string"

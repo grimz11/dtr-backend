@@ -596,6 +596,9 @@
               "quotes": {
                 "type": "string"
               },
+              "birthday": {
+                "type": "string"
+              },
               "created_by": {
                 "type": "string"
               },
