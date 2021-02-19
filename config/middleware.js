@@ -6,6 +6,10 @@ module.exports = {
       formidable: {
         maxFileSize: 200 * 1024 * 1024 // Defaults to 200mb
       }
+    },
+    public: {
+      path: "./public",
+      maxAge: 300000000000
     }
   },
 };
