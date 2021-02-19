@@ -591,6 +591,9 @@
                 "birthday": {
                   "type": "string"
                 },
+                "department": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },

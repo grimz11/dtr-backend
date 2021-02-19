@@ -1403,6 +1403,9 @@
           "birthday": {
             "type": "string",
             "format": "date"
+          },
+          "department": {
+            "type": "string"
           }
         }
       },
@@ -1469,6 +1472,9 @@
           "birthday": {
             "type": "string",
             "format": "date"
+          },
+          "department": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

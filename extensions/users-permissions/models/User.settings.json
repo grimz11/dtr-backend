@@ -103,6 +103,9 @@
     },
     "birthday": {
       "type": "date"
+    },
+    "department": {
+      "type": "string"
     }
   }
 }
