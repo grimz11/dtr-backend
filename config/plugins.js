@@ -8,7 +8,7 @@ module.exports = ({ env }) => {
     upload: {
       providerOptions: {
         localServer: {
-          maxage: 300000000000,
+          maxAge: 300000000000,
         },
       },
     },
