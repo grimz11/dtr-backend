@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "grimz11",
+      "name": "Mark Andog",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53614600?v=4",
+      "profile": "https://www.facebook.com/grimz11",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "hyperstacksinc-dtr-backend",
+  "projectOwner": "Hyperstacks-Inc",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
