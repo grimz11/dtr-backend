@@ -1251,6 +1251,43 @@
               }
             }
           },
+          "recordData": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "timeOut": {
+                  "type": "string"
+                },
+                "hoursRendered": {
+                  "type": "string"
+                },
+                "currentlyWorking": {
+                  "type": "boolean"
+                },
+                "userId": {
+                  "type": "string"
+                },
+                "initialized_at": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "firstname": {
             "type": "string"
           },

@@ -664,6 +664,9 @@
               }
             }
           },
+          "initialized_at": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -683,6 +686,9 @@
             "type": "boolean"
           },
           "userId": {
+            "type": "string"
+          },
+          "initialized_at": {
             "type": "string"
           },
           "published_at": {

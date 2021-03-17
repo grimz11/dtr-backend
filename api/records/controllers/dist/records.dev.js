@@ -9,15 +9,15 @@ var _require = require('strapi-utils'),
 
 module.exports = {
   findUsersRecordsByDate: function findUsersRecordsByDate(ctx) {
-    var created_at, knex, result;
+    var initialized_at, knex, result;
     return regeneratorRuntime.async(function findUsersRecordsByDate$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            created_at = ctx.query.created_at;
+            initialized_at = ctx.query.initialized_at;
             knex = strapi.connections["default"];
             _context.next = 4;
-            return regeneratorRuntime.awrap(knex('records').where('created_at', 'LIKE', "%".concat(created_at, "%")));
+            return regeneratorRuntime.awrap(knex('records').where('initialized_at', 'LIKE', "%".concat(initialized_at, "%")));
 
           case 4:
             result = _context.sent;

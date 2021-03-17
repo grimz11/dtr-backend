@@ -21,9 +21,12 @@
       "type": "boolean"
     },
     "userId": {
-      "via": "recordData",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "recordData"
+    },
+    "initialized_at": {
+      "type": "string"
     }
   }
 }

@@ -60,9 +60,8 @@
       "configurable": false
     },
     "recordData": {
-      "private": true,
-      "collection": "records",
-      "via": "userId"
+      "via": "userId",
+      "collection": "records"
     },
     "firstname": {
       "type": "string"
