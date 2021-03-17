@@ -10,6 +10,14 @@
     },
     {
       "method": "GET",
+      "path": "/records/searchByDate",
+      "handler": "records.findUsersRecordsByDate",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/records/count",
       "handler": "records.count",
       "config": {

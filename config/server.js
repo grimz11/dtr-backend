@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
     url: '/admin',
     // serverAdminPanel: false,
     auth: {
-      secret: env('ADMIN_JWT_SECRET'),
+      secret: env("NODE_ENV") !== "production"? "54c971298849c7ab4c1b2a4eede81111" : env('ADMIN_JWT_SECRET'),
     },
   },
 });

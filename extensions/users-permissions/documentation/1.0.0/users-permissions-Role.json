@@ -573,9 +573,6 @@
                 "lastname": {
                   "type": "string"
                 },
-                "coverPhoto": {
-                  "type": "string"
-                },
                 "avatar": {
                   "type": "string"
                 },

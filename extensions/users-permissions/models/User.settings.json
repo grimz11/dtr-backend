@@ -70,17 +70,6 @@
     "lastname": {
       "type": "string"
     },
-    "coverPhoto": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "avatar": {
       "model": "file",
       "via": "related",
